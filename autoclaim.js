@@ -2,9 +2,9 @@
 const FIBOS = require('fibos.js');
 const Decimal = require('decimal.js');
 const ssl = require('ssl');
-ssl.loadRootCerts();
 const config = require('./config');
 
+ssl.loadRootCerts();
 
 class RewardClaimer {
   constructor(config) {
